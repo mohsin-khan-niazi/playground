@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .round-image{
+      width: 200px;
+      border-radius: 20px;
+      border-style: solid;
+    }
+    .box-image{
+      height: 150px;
+      width: 150px;
+      object-position: center;
+      border-radius: 4px;
+      border-style: solid;
+      vertical-align: top;
+    }
+    .input {
+      width: 800px;
+      background-color: blanchedalmond;
+      display: inline-block;
+      vertical-align: top;
+      margin-left: 20px;
+    }
+    .profile-image {
+      margin: 10px;
+      display: inline-block;
+      width: 50px;
+      height: 50px;
+    }
+    #circle-image{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      border-radius: 50%;
+    }
+    .text-field{
+      display: inline-block;
+      margin-top: 20px;
+      vertical-align: top;      
+      background-color: white;
+      border: none;
+      width: 625px;
+    }
+    #input-text {
+      color: gray;
+      width: 100%;
+      font-size: 16px;
+    }
+    
+    .button-div {
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 16px;
+    }
+    #tweet-button {
+      background-color: #1A8CD8;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      font-size: 14px;
+      padding: 10px 20px;
+      border-radius: 50px;
+      border: none;
+      transition: box-shadow 0.5;
+      margin-left: 10px;
+    }
+    #tweet-button:hover {
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+      opacity: 0.95;
+    }
+  </style>
+  <title>Images</title>
+</head>
+<body>
+    <img src="catto.jpeg" class="round-image">
+    <img src="catto.jpeg" class="box-image">
+    <div class="input">
+      <div class="profile-image">
+        <img src="catto.jpeg" id="circle-image">
+      </div>
+      <div class="text-field">
+        <input type="text" id="input-text" placeholder="What's happening?">
+      </div>
+      <div class="button-div">
+        <button id="tweet-button">Tweet</button>
+      </div>
+    </div>
+</body>
+</html>
