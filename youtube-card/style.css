@@ -1,0 +1,56 @@
+.preview-card {
+  height: 350px;
+  width: 500px;
+  background-color: pink;
+}
+
+.video-banner {
+  height: 250px;
+  width: 500px;
+}
+.banner {
+  width: 500px;
+  height: 250px;
+  object-position: center;
+  border-radius: 25px;
+}
+
+.video-content {
+  height: 100px;
+  width: 500px;
+}
+
+.channel-image-section {
+  height: 100px;
+  width: 75px;
+  display: inline;
+  margin: 5px 0 0 5px;
+}
+
+.profile-image {
+  width: 40px;
+  height: 40px;
+  object-position: center;
+  border-radius: 20px;
+}
+.details-section {
+  height: 100px;
+  width: 425px;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.title {
+  font-family: Arial;
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 20px;
+  height: 50px;
+  margin-top: 7.5px;
+}
+
+.stats, .author {
+  font: Arial;
+  line-height-step: 2px;
+  color: rgb(170, 170, 170);
+}
